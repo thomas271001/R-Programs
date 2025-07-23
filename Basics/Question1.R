@@ -1,0 +1,6 @@
+name<-readline(prompt="your name:")
+age<-readline(prompt="your age:")
+age<-as.integer(age)
+cat("Name:",name,"\n")
+cat("Age:",age,"\n")
+print(R.version.string)
